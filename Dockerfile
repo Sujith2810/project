@@ -8,5 +8,5 @@ RUN pip install gunicorn
 
 COPY . .
 
-# Use Gunicorn to serve Flask
+# Run Gunicorn on 0.0.0.0:5000
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
