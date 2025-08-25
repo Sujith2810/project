@@ -8,5 +8,5 @@ RUN pip install gunicorn
 
 COPY . .
 
-# Run Gunicorn
+# Only this CMD
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
