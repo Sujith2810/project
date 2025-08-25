@@ -1,4 +1,4 @@
-replicaCount: 0
+replicaCount: 1
 
 image:
   repository: 010426082127.dkr.ecr.us-east-1.amazonaws.com/demo
